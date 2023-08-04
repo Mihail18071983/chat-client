@@ -8,8 +8,8 @@ import { EmojiClickData } from "emoji-picker-react";
 import { IUserData, IUser } from "../types/types";
 import { Messages } from "../components/Messages";
 
-const socket = io("http://localhost:5000");
-
+// const socket = io("http://localhost:5000");
+const socket = io("https://chat-biri.onrender.com");
 
 export const Chat = () => {
   const navigate = useNavigate();
